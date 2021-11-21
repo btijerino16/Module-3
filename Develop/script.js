@@ -12,6 +12,8 @@ var randomSymbols = ["!","@","#","$","%","^","&","*"]
 function generatePassword() {
  // length of password
 var confirmLength = prompt("Please choose between 8-128 characters");
+
+
 // choice of numbers
 var numberschoice = prompt("Would you like to add numbers?");
 // choice of lower case
@@ -25,6 +27,10 @@ var specialcharacters = prompt ("Would you like to add special characters?");
  
 
 }
+
+
+
+
 // Get references to the #generate element
 var generateBtn = document.querySelector("#generate");
 
